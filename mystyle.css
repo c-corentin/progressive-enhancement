@@ -1,11 +1,10 @@
 body {
-
-    background: -webkit-linear-gradient(34deg, rgb(195, 199, 202), rgb(90, 92, 95));
-    background: linear-gradient(34deg, rgb(195, 199, 202), rgb(90, 92, 95));
+    background: -webkit-linear-gradient(90deg, rgb(239, 239, 239), rgb(185, 196, 166));
+    background: linear-gradient(90deg, rgb(239, 239, 239), rgb(185, 196, 166));
     width: 90%;
     margin: auto;
     padding: auto;
-   /* background-image: url(logo_cthulhu_03.jpg);
+    /* background-image: url(logo_cthulhu_03.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;*/
@@ -20,6 +19,7 @@ blockquote {
     padding-left: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
+    color: beige;
 }
 
 q {
@@ -32,4 +32,31 @@ q {
 
 .village {
     border-left: 3px solid #63B4E8;
+}
+
+header h1 {
+    background-color: yellow;
+}
+
+.mal {
+    color: red;
+    text-transform: uppercase;
+}
+
+.bien {
+    color: green;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 8px 8px;
+}
+
+.whiterow {
+    background-color: white;
+}
+
+.greyrow {
+    background-color: grey;
+    color: white;
 }
