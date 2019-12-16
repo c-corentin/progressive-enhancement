@@ -60,3 +60,15 @@ td {
     background-color: grey;
     color: white;
 }
+
+#firstli {
+    background-image: url(bien.png);
+}
+
+#secondli {
+    background-image: url(mal.png);
+}
+
+#thirdli {
+    background-image: url(chat.png);
+}
