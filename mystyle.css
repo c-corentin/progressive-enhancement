@@ -63,12 +63,25 @@ td {
 
 #firstli {
     background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    padding-left: 25px;
 }
 
 #secondli {
     background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    padding-left: 25px;
 }
 
 #thirdli {
     background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    padding-left: 25px;
+}
+
+p:first-of-type {
+    font-style: ;
 }
