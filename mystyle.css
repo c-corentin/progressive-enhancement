@@ -1,1 +1,35 @@
+body {
 
+    background: -webkit-linear-gradient(34deg, rgb(195, 199, 202), rgb(90, 92, 95));
+    background: linear-gradient(34deg, rgb(195, 199, 202), rgb(90, 92, 95));
+    width: 90%;
+    margin: auto;
+    padding: auto;
+   /* background-image: url(logo_cthulhu_03.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;*/
+}
+
+blockquote {
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: gray;
+    border-left: 3px solid #dc5539;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+q {
+    font-style: italic;
+}
+
+.fermier {
+    border-left: 3px solid #dc5539;
+}
+
+.village {
+    border-left: 3px solid #63B4E8;
+}
