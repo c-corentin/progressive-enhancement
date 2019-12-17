@@ -64,10 +64,16 @@ nav ul li a {
 
 #jsgeek {
     display: inline-block;
+    margin-right: 150px;
 }
 
 #bannercontain {
     display: inline-block;
+    margin-bottom: 30px;
+}
+
+#bannercontain button {
+    margin-top: 30px;
 }
 
 #bannercontain img {
@@ -78,4 +84,30 @@ nav ul li a {
 #bannercontain h1 {
     font-size: 125%;
     font-weight: 100;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+article {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    margin: 0 15px;
+}
+
+button {
+    font-size: 150%;
+    border-width: 2px;
+    border-radius: 9px;
+    border-color: white;
+    padding: 16px 20px;
+    background-color: #E99002;
+    color: white;
+}
+
+article h3 {
+    font-weight: 100;
+    background-image: ;
 }
