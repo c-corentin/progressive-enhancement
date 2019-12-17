@@ -82,6 +82,6 @@ td {
     padding-left: 25px;
 }
 
-* p:first-of-type {
-    font-style: ;
+body p:first-of-type {
+    font-weight: bold;
 }
