@@ -20,6 +20,7 @@ blockquote {
     margin-top: 80px;
     margin-bottom: 80px;
     color: beige;
+    font-family: 'Montserrat', sans-serif;
 }
 
 q {
@@ -36,6 +37,10 @@ q {
 
 header h1 {
     background-color: yellow;
+}
+
+h1 {
+    font-family: 'Lilita One', cursive;
 }
 
 .mal {
@@ -114,7 +119,7 @@ ul li a {
  border-radius: 5px;
  padding: 5px 5px;
  }
- 
+
  Flex boxes
 
  .posts {
@@ -140,5 +145,15 @@ Sticky element
   position: sticky;
   top: 0;
   float: right;
+}
+
+Overlapping img
+
+img{
+  border:1px solid green;
+  padding:5px;
+  position: absolute;
+  z-index: -5;
+  top:0;
 }
  */
