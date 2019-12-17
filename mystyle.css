@@ -85,3 +85,29 @@ td {
 body p:first-of-type {
     font-weight: bold;
 }
+
+/* inline menu
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ margin-left:1px;
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:80px;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ border:1px solid;
+ margin: 2px;
+ border-radius: 5px;
+ padding: 2px 0px;
+ width: 70px;
+ }
+ 
+ */
