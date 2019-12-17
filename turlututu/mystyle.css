@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -8,7 +9,7 @@ a {
 
 header {
     background-color: #333333;
-    height: 300px;
+    max-height: 340px;
     padding: 9px 0;
 }
 
@@ -19,15 +20,21 @@ footer {
 }
 
 #logoheader {
-    width: 10%;
-    height: 10%;
+    width: 80px;
+    height: 23px;
+    /*float: left;*/
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
 }
 
 nav ul li a {
     display: block;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 7px;
 }
 
 .menu ul {
@@ -39,8 +46,9 @@ nav ul li a {
 .menu li {
     display: inline-block;
     /*float: left;*/
-    margin: 0;
-    padding: 0;
+    margin: 10px 0;
+    padding: 3px 3px;
+    border-radius: 5px;
 }
 
 .menu a:hover {
@@ -48,7 +56,26 @@ nav ul li a {
 
 }
 
-#content {
-    widows: 70%;
+.bluesec {
+    background-color: #1E93CC;
+    color: white;
+    padding: 20px 20px;
+}
 
+#jsgeek {
+    display: inline-block;
+}
+
+#bannercontain {
+    display: inline-block;
+}
+
+#bannercontain img {
+    max-width: 300px;
+    max-height: 87px;
+}
+
+#bannercontain h1 {
+    font-size: 125%;
+    font-weight: 100;
 }
