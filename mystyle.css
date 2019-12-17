@@ -86,7 +86,14 @@ body p:first-of-type {
     font-weight: bold;
 }
 
-/* inline menu
+img {
+    width: auto;
+    float: inherit;
+    margin: 10px 0;
+}
+
+/* 
+inline menu
 
 ul {
  padding:0;
@@ -109,5 +116,31 @@ ul li a {
  padding: 2px 0px;
  width: 70px;
  }
- 
+
+ Flex boxes
+
+ .posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  border: 1px solid black;
+  width: 350px;
+  margin: 10px;
+  padding: 10px;
+}
+
+Sticky element
+.notification{
+  background:#FFFFDD;
+  padding:.5rem 1rem;
+  border:3px solid #DDDDCC;
+  width:250px;
+  font-weight:bold;
+  color: #333300;
+  position: sticky;
+  top: 0;
+  float: right;
+}
  */
