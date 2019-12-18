@@ -13,6 +13,10 @@ header button,
 nav {
     display: inline-block;
 }
+#logoheader {
+    margin: 10px 5px;
+    vertical-align: middle;
+}
 
 nav ul li a {
     color: black;
@@ -21,11 +25,14 @@ nav ul li a {
 }
 
 nav ul {
-    padding: 0;
-    margin: 0;
     list-style-type: none;
 }
 
 nav li {
     display: inline;
+}
+
+header img {
+    width: 200px;
+    height: auto;
 }
