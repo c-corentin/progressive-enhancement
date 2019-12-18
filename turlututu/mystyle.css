@@ -8,14 +8,14 @@ a {
 }
 
 header {
-    background-color: #333333;
+    background-color: #222222;
     max-height: 340px;
     padding: 9px 0;
 }
 
 footer {
-    background-color: #333333;
-    height: 300px;
+    background-color: #222222;
+    max-height: 340px;
     padding: 9px 0;
 }
 
@@ -56,6 +56,10 @@ nav ul li a {
 
 }
 
+#login {
+    margin-left: 300px;
+}
+
 .bluesec {
     background-color: #1E93CC;
     color: white;
@@ -70,6 +74,7 @@ nav ul li a {
 #bannercontain {
     display: inline-block;
     margin-bottom: 30px;
+    margin-left: 150px;
 }
 
 #bannercontain button {
@@ -109,5 +114,39 @@ button {
 
 article h3 {
     font-weight: 100;
-    background-image: ;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.greysec {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden; 
+    justify-content: center;
+}
+  
+.greysec img {
+    margin: 10px;
+    padding: 10px;
+    max-width: 150px;
+    height: auto;
+  }
+
+.logopartner {
+    display: inline-block;
+}
+
+.partnercont {
+    max-width: 60%;
+}
+
+.bottombutton {
+    margin: 40px 0 70px 0;
+}
+
+.nobuild {
+    background-color: #165882;
 }
